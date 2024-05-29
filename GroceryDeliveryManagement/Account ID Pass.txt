@@ -1,0 +1,11 @@
+Shop Accounts:
+Jamal : 1111
+Kamal : 1111
+Joshim : 1111
+Sakib : 1111
+Babor : 1111
+
+Customer:
+Raquib : 1111
+Sadik : 1111
+Sifat : 1111

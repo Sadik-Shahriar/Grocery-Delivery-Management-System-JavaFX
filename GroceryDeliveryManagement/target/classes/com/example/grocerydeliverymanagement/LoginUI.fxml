@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="785.0" style="-fx-background-color: #491021;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.grocerydeliverymanagement.LoginUIController">
+   <children>
+      <Label layoutX="474.0" layoutY="29.0" prefHeight="43.0" prefWidth="384.0" text=" Crimson Grocery" textFill="#ff9ea2">
+         <font>
+            <Font name="Corbel Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="407.0" layoutY="118.0" text="Username:" textFill="#ff9ea2">
+         <font>
+            <Font name="Corbel Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="410.0" layoutY="187.0" text="Password:" textFill="#ff9ea2">
+         <font>
+            <Font name="Corbel Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="592.0" layoutY="242.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="26.0" prefWidth="77.0" style="-fx-background-color: #ff9ea2;" text="Login" textFill="#610000">
+         <font>
+            <Font name="Corbel Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="555.0" layoutY="303.0" mnemonicParsing="false" onAction="#handleCreateAccount" prefHeight="26.0" prefWidth="152.0" style="-fx-background-color: #ff9ea2;" text="Create Account" textFill="#610000">
+         <font>
+            <Font name="Corbel Bold" size="19.0" />
+         </font>
+      </Button>
+      <TextField fx:id="usernameField" layoutX="529.0" layoutY="116.0" prefHeight="26.0" prefWidth="203.0" style="-fx-background-color: #ff9ea2;" />
+      <ImageView fitHeight="385.0" fitWidth="384.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../logo%20representing%20red%20spinach.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="426.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../logo.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="passwordField" layoutX="529.0" layoutY="186.0" prefHeight="26.0" prefWidth="203.0" style="-fx-background-color: #ff9ea2;" />
+   </children>
+</AnchorPane>
